@@ -5,19 +5,19 @@
     "description": "A survival mod that adds dynamic temperature and thirst mechanics to Minecraft 1.12.2, inspired by Tough As Nails. It features customizable hydration and environmental temperature effects",
     "version": "${version}",
     "mcversion": "1.12.2",
-    "url": "https://www.curseforge.com/minecraft/mc-mods/simpledifficulty-for-underdog",
-    "updateUrl": "https://raw.githubusercontent.com/Onyx-i7/SimpleDifficulty/refs/heads/SDOE/modupdatechecker.json",
+    "url": "https://www.curseforge.com/minecraft/mc-mods/simpledifficulty-reforged",
+    "updateUrl": "https://raw.githubusercontent.com/0xNull12/SimpleDifficulty/refs/heads/SDOE/modupdatechecker.json",
     "authorList": [
       "Charles445",
       "teksturepako",
-      "Onyx-i7"
+      "0xNull"
     ],
-    "credits": "Original concept and development by Charles445. Underdog fork and maintenance by juraj-hrivnak. Performance optimization, and bug fixes by Onyx-i7.",
+    "credits": "Original concept and development by Charles445. Underdog fork and maintenance by juraj-hrivnak. Performance optimization, and bug fixes by 0xNull",
     "logoFile": "logo.png",
     "screenshots": [],
     "dependencies": [],
     "modProperties": {
-      "issueTrackerUrl": "https://github.com/Onyx-i7/SimpleDifficulty/issues",
+      "issueTrackerUrl": "https://github.com/0xNull12/SimpleDifficulty/issues",
       "license": "MIT"
     }
   }
