@@ -17,7 +17,7 @@ apply plugin: 'idea'
 apply plugin: 'eclipse'
 apply plugin: 'com.gtnewhorizons.retrofuturagradle'
 
-version = "0.8.1"
+version = "0.8.2"
 group = "com.charles445.simpledifficulty"
 
 // Gradle 9 syntax
@@ -88,6 +88,9 @@ dependencies {
     
     //  HBM's Nuclear Tech Mod Community Edition 
     compileOnly rfg.deobf('curse.maven:hbm-nuclear-tech-mod-community-edition-1312314:8873889')
+
+    // Ignite Hud
+    compileOnly rfg.deobf('curse.maven:ignitehud-273725:2875133')
 }
 
 tasks.named('processResources', ProcessResources).configure {
@@ -117,6 +120,7 @@ artifacts {
 tasks.named('jar', Jar).configure {
     manifest {
         attributes([
+			'MixinConfigs': 'mixins.simpledifficulty.json',
             'FMLCorePluginContainsFMLMod': 'com.charles445.simpledifficulty.SimpleDifficulty',
             'ForceLoadAsMod': 'true'
         ])
